@@ -22,7 +22,7 @@ $ docker-compose exec php cp .env.example .env
 
 Run migrations:
 ```shell script
-$ docker-compose exec php cp .env.example .env
+$ docker-compose exec php php artisan migrate
 ```
 
 Seed database with 3 random users with random accounts:
