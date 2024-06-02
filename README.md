@@ -39,19 +39,19 @@ Application will be available under ***localhost:8080***
 
 ## API
 
-<https://localhost:8080/clients> (GET)
+<localhost:8080/clients> (GET)
 
 Lists all client id's.
 
 ---
 
-<https://localhost:8080/clients/{client}/accounts> (GET)
+<localhost:8080/clients/{client}/accounts> (GET)
 
 Lists all accounts for given client id.
 
 ---
 
-<https://localhost:8080/accounts/transfer> (POST)
+<localhost:8080/accounts/transfer> (POST)
 
 Performs fund transfer between 2 accounts.
 
@@ -64,6 +64,6 @@ Required parameters:
 
 ---
 
-<https://localhost:8080/accounts/{account}/transactions> (GET)
+<localhost:8080/accounts/{account}/transactions> (GET)
 
 Lists all transactions for given account id.
